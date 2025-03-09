@@ -54,5 +54,4 @@ body {
 }
 
 .hamburger-active {
-    @apply text-black;
 }

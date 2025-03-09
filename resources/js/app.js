@@ -17,13 +17,16 @@ window.onscroll = function () {
     }
 };
 
-const hamburger = document.querySelector("#hamburger");
-const navMenu = document.querySelector("#nav-menu");
-const iconMenu = document.querySelector("#icon");
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("nav-menu");
+const iconMenu = document.getElementById("icon-menu");
 
 hamburger.addEventListener("click", function () {
     navMenu.classList.toggle("hidden");
-    const isOpen = !navMenu.classList.contains("hidden");
-    iconMenu.setAttribute("data-feather", isOpen ? "x" : "menu");
+    if (navMenu.classList.contains("hidden")) {
+        iconMenu.innerHTML = '<i data-feather = "menu"></i>';
+    } else {
+        iconMenu.innerHTML = '<i data-feather = "x"></i>';
+    }
     feather.replace();
 });
