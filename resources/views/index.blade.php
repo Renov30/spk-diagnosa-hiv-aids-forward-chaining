@@ -34,8 +34,25 @@
     </header>
     {{-- nav end --}}
     {{-- hero start --}}
-    <section id="home">
-
+    <section id="home" class="pt-30">
+        <div class="container"> 
+            <div class="flex flex-wrap">
+                {{-- kiri start --}}
+                <div class="px-4 w-full lg:w-1/2">
+                    <h2 class="text-base font-medium text-primary py-3">Sistem Pakar Diagnosa HIV/AIDS</h2>
+                    <h1 class="font-bold text-4xl py-3">Periksa Dirimu,<br><span class="text-primary">Kapan Saja</span></h1>
+                    <p class="text-base py-3 text-secondary leading-relaxed">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quidem aperiam quis maiores necessitatibus minima quos, totam eaque blanditiis exercitationem?</p>
+                    <div class="flex py-3">
+                        <a href="" class="text-white px-5 py-3 rounded-lg bg-primary hover:shadow-lg hover:opacity-90 transition duration-300 ease-in-out">Pelajari Lebih</a>
+                        <a href="" class="font-medium text-dark ml-5 flex px-5 py-3 rounded-lg bg-white border border-slate-400 hover:shadow-lg hover:border-slate-500 duration-300 ease-in-out" ><i data-feather="search" class="mr-2 text-primary"></i>Konsultasi</a>
+                    </div>
+                </div>
+                {{-- kiri end--}}
+                {{-- kanan start--}}
+                <div></div>
+                {{-- kanan end--}}
+            </div>
+        </div>
     </section>
     {{-- hero end --}}
     {{-- about start --}}
