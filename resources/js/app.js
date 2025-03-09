@@ -1,7 +1,29 @@
-import './bootstrap';
+import "./bootstrap";
 
-import Alpine from 'alpinejs';
+import Alpine from "alpinejs";
 
 window.Alpine = Alpine;
 
 Alpine.start();
+
+window.onscroll = function () {
+    const header = document.querySelector("header");
+    const fixedNav = header.offsetTop;
+
+    if (window.pageYOffset > fixedNav) {
+        header.classList.add("navbar-fixed");
+    } else {
+        header.classList.remove("navbar-fixed");
+    }
+};
+
+const hamburger = document.querySelector("#hamburger");
+const navMenu = document.querySelector("#nav-menu");
+const iconMenu = document.querySelector("#icon");
+
+hamburger.addEventListener("click", function () {
+    navMenu.classList.toggle("hidden");
+    const isOpen = !navMenu.classList.contains("hidden");
+    iconMenu.setAttribute("data-feather", isOpen ? "x" : "menu");
+    feather.replace();
+});
