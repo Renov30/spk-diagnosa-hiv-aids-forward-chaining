@@ -49,7 +49,30 @@
                 </div>
                 {{-- kiri end--}}
                 {{-- kanan start--}}
-                <div></div>
+                <div class="px-4 w-full self-end">
+                    <div class="relative mt-10">
+                        <img src="{{asset('img/bohemian-man-with-his-arms-crossed-removebg-preview.png')}}" alt="hero image" class="relative z-10 ">
+                        <span class="absolute p-4 bg-white/90 top-6 max-w-[200px] left-0 rounded-lg shadow-lg z-0">
+                            <ul class="list-disc list-inside text-gray-700 space-y-1 mb-3">
+                                <h4 class="font-bold text-sm">Kenapa SPKHIV?</h4>
+                                <li class="text-xs">konsultasi cepat</li>
+                                <li class="text-xs">konsultasi tepat</li>
+                                <li class="text-xs">admin responsif</li>
+                            </ul>
+                            <a href="" class="text-xs bg-primary text-white py-2 px-3 rounded-lg w-full block text-center">Buat Akun</a>
+                        </span>
+                        <span class="absolute p-4 bg-white/90 bottom-4 right-0 rounded-lg shadow-lg z-20 flex flex-col items-center">
+                            <div class="relative flex items-center justify-center w-10 h-10 bg-primary rounded-full mb-2">
+                                <i data-feather="message-circle" class="text-white w-5 h-5"></i>
+                            </div>
+                            <div class="text-center">
+                                <p class="text-sm rounded-lg w-full block text-secondary font-bold">Contact Us</p>
+                                <p class="text-xs rounded-lg w-full block text-secondary">+6281343026394</p>
+                            </div>
+                        </span>
+                        <span class="absolute px-40 py-40 bg-primary bottom-0 left-1/2 -translate-x-1/2 rounded-t-full -z-10"></span>
+                    </div>  
+                </div>
                 {{-- kanan end--}}
             </div>
         </div>
