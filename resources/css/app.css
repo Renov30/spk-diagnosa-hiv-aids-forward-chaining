@@ -55,3 +55,10 @@ body {
 
 .hamburger-active {
 }
+
+.custom-rounded {
+    border-top-left-radius: 9999px; /* Membuat bagian atas full rounded */
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 16px; /* Sesuai dengan rounded-b-lg */
+    border-bottom-right-radius: 16px;
+}
