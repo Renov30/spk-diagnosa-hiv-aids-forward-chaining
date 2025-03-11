@@ -30,3 +30,27 @@ hamburger.addEventListener("click", function () {
     }
     feather.replace();
 });
+
+document.querySelectorAll(".menu-item").forEach((item) => {
+    item.addEventListener("click", () => {
+        document.querySelectorAll(".content").forEach((content) => {
+            content.classList.add("hidden");
+            content.classList.add("opacity-0");
+            content.classList.remove("opacity-100");
+        });
+        document.querySelectorAll(".menu-item").forEach((menu) => {
+            menu.classList.remove("shadow-md");
+            menu.classList.add("text-secondary");
+        });
+        item.classList.add("shadow-md");
+        item.classList.remove("text-secondary");
+
+        const target = item.getAttribute("data-target");
+        const targetElement = document.getElementById(target);
+        document.getElementById(target).classList.remove("hidden");
+        setTimeout(() => {
+            targetElement.classList.add("opacity-100");
+            targetElement.classList.remove("opacity-0");
+        }, 10);
+    });
+});
