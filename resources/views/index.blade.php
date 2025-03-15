@@ -90,8 +90,8 @@
                     <h1 class="font-bold text-2xl text-white mb-10 leading-relaxed lg:text-3xl md:text-2xl lg:mb-5">Dapatkan Diagnosa Dengan Cepat</h1>
                     <p class="text-sm text-white lg:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat numquam tempore eaque enim odit odio?</p>
                 </div>
-                <div class="flex">
-                    <div class="bg-white p-5 rounded-lg flex items-center justify-between mb-7">
+                <div class="flex space-x-5">
+                    <div class="bg-white p-5 rounded-lg flex items-center justify-between mb-7 max-w-[250px]">
                         <div>
                             <i data-feather="info" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4"></i>
                         </div>
@@ -138,95 +138,6 @@
             <div class="w-full px-4">
                 <div class="mx-auto text-center mb-10">
                     <h1 class="font-bold text-2xl text-dark">Fitur dan <span class="text-primary">Layanan</span></h1> 
-                </div>
-                <div class="w-full px-4 flex flex-col md:flex-row mt-8">
-                    <div class="md:w-1/4">
-                        <ul class="space-y-4">
-                            {{-- <li class="bg-primary text-white p-4 rounded-lg shadow-md">Tanya Pakar</li> --}}
-                            <li class="menu-item text-secondary p-4 rounded-lg hover:shadow-md transition duration-300 ease-in-out cursor-pointer" data-target="tanya">Tanya Pakar</li>
-                            <div id="tanya" class="content bg-white p-5 rounded-lg shadow-lg hidden opacity-0 transition-opacity duration-300 ease-in-out">
-                                <img src="{{asset('img/coronavirus-sample-procedure (1).jpg')}}" alt="" class="rounded-lg w-full md:w-1/2" height="200" width="300">
-                                <div class="md:ml-6 mt-4 md:mt-0">
-                                    <h3 class="text-xl font-semibold text-dark">Tanya Pakar</h3>
-                                    <p class="text-secondary mt-2 text-base leading-relaxed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident praesen quia.</p>
-                                </div>
-                            </div>
-                            <li class="menu-item text-secondary p-4 rounded-lg hover:shadow-md transition duration-300 ease-in-out cursor-pointer" data-target="rekomendasi">Rekomendasi Tindakan Medis</li>
-                            <div id="rekomendasi" class="content bg-white p-5 rounded-lg shadow-lg hidden opacity-0 transition-opacity duration-300">
-                                <img src="{{asset('img/elderly-female-smiling-with-doctor-visiting-senior-patient-woman-hospital-ward.jpg')}}" alt="" class="rounded-lg w-full md:w-1/2" height="200" width="300">
-                                <div class="md:ml-6 mt-4 md:mt-0">
-                                    <h3 class="text-xl font-semibold text-dark">Rekomendasi Tindakan Medis</h3>
-                                    <p class="text-secondary mt-2 text-base leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, culpa?</p>
-                                </div>
-                            </div>
-                            <li class="menu-item text-secondary p-4 rounded-lg hover:shadow-md transition duration-300 ease-in-out cursor-pointer" data-target="basis-peng">Basis Pengetahuan Penyakit</li>
-                            <div id="basis-peng" class="content bg-white p-5 rounded-lg shadow-lg hidden opacity-0 transition-opacity duration-300">
-                                <img src="{{asset('img/unrecognizable-doctor-extending-digital-tab-anonymous-patient-fill-questionnaire.jpg')}}" alt="" class="rounded-lg w-full md:w-1/2" height="200" width="300">
-                                <div class="md:ml-6 mt-4 md:mt-0">
-                                    <h3 class="text-xl font-semibold text-dark">Basis Pengetahuan Penyakit</h3>
-                                    <p class="text-secondary mt-2 text-base leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, minima.</p>
-                                </div>
-                            </div>
-                            <li class="menu-item text-secondary p-4 rounded-lg hover:shadow-md transition duration-300 ease-in-out cursor-pointer" data-target="riwayat">Riwayat Konsultasi</li>
-                            <div id="riwayat" class="content bg-white p-5 rounded-lg shadow-lg hidden opacity-0 transition-opacity duration-300">
-                                <img src="{{asset('img/physician-noting-down-symptoms-patient.jpg')}}" alt="" class="rounded-lg w-full md:w-1/2" height="200" width="300">
-                                <div class="md:ml-6 mt-4 md:mt-0">
-                                    <h3 class="text-xl font-semibold text-dark">Riwayat Konsultasi</h3>
-                                    <p class="text-secondary mt-2 text-base leading-relaxed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident praesen quia.</p>
-                                </div>
-                            </div>
-                            <li class="menu-item text-secondary p-4 rounded-lg hover:shadow-md transition duration-300 ease-in-out cursor-pointer" data-target="privasi">Privasi Data</li>
-                            <div id="privasi" class="content bg-white p-5 rounded-lg shadow-lg hidden opacity-0 transition-opacity duration-300">
-                                <img src="{{asset('img/medical-banner-with-doctor-working-laptop.jpg')}}" alt="" class="rounded-lg w-full md:w-1/2" height="200" width="300">
-                                <div class="md:ml-6 mt-4 md:mt-0">
-                                    <h3 class="text-xl font-semibold text-dark">Privasi Data</h3>
-                                    <p class="text-secondary mt-2 text-base leading-relaxed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident praesen quia.</p>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                    <div class="md:w-3/4 mt-4 md:mt-0 md:ml-8">
-                        {{-- <div id="tanya" class="content bg-white p-5 rounded-lg shadow-lg hidden opacity-0 transition-opacity duration-300 ease-in-out">
-                            <img src="{{asset('img/coronavirus-sample-procedure (1).jpg')}}" alt="" class="rounded-lg w-full md:w-1/2" height="200" width="300">
-                            <div class="md:ml-6 mt-4 md:mt-0">
-                                <h3 class="text-xl font-semibold text-dark">Tanya Pakar</h3>
-                                <p class="text-secondary mt-2 text-base leading-relaxed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident praesen quia.</p>
-                                <button class="mt-4 bg-primary text-white px-4 py-2 rounded-lg shadow-md">Learn More</button>
-                            </div>
-                        </div> --}}
-                        {{-- <div id="rekomendasi" class="content bg-white p-5 rounded-lg shadow-lg hidden opacity-0 transition-opacity duration-300">
-                            <img src="{{asset('img/coronavirus-sample-procedure (1).jpg')}}" alt="" class="rounded-lg w-full md:w-1/2" height="200" width="300">
-                            <div class="md:ml-6 mt-4 md:mt-0">
-                                <h3 class="text-xl font-semibold text-dark">Rekomendasi Tindakan Medis</h3>
-                                <p class="text-secondary mt-2 text-base leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, culpa?</p>
-                                <button class="mt-4 bg-primary text-white px-4 py-2 rounded-lg shadow-md">Learn More</button>
-                            </div>
-                        </div> --}}
-                        {{-- <div id="basis-peng" class="content bg-white p-5 rounded-lg shadow-lg hidden opacity-0 transition-opacity duration-300">
-                            <img src="{{asset('img/coronavirus-sample-procedure (1).jpg')}}" alt="" class="rounded-lg w-full md:w-1/2" height="200" width="300">
-                            <div class="md:ml-6 mt-4 md:mt-0">
-                                <h3 class="text-xl font-semibold text-dark">Basis Pengetahuan Penyakit</h3>
-                                <p class="text-secondary mt-2 text-base leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, minima.</p>
-                                <button class="mt-4 bg-primary text-white px-4 py-2 rounded-lg shadow-md">Learn More</button>
-                            </div>
-                        </div> --}}
-                        {{-- <div id="riwayat" class="content bg-white p-5 rounded-lg shadow-lg hidden opacity-0 transition-opacity duration-300">
-                            <img src="{{asset('img/coronavirus-sample-procedure (1).jpg')}}" alt="" class="rounded-lg w-full md:w-1/2" height="200" width="300">
-                            <div class="md:ml-6 mt-4 md:mt-0">
-                                <h3 class="text-xl font-semibold text-dark">Riwayat Konsultasi</h3>
-                                <p class="text-secondary mt-2 text-base leading-relaxed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident praesen quia.</p>
-                                <button class="mt-4 bg-primary text-white px-4 py-2 rounded-lg shadow-md">Learn More</button>
-                            </div>
-                        </div> --}}
-                        {{-- <div id="privasi" class="content bg-white p-5 rounded-lg shadow-lg hidden opacity-0 transition-opacity duration-300">
-                            <img src="{{asset('img/coronavirus-sample-procedure (1).jpg')}}" alt="" class="rounded-lg w-full md:w-1/2" height="200" width="300">
-                            <div class="md:ml-6 mt-4 md:mt-0">
-                                <h3 class="text-xl font-semibold text-dark">Privasi Data</h3>
-                                <p class="text-secondary mt-2 text-base leading-relaxed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident praesen quia.</p>
-                                <button class="mt-4 bg-primary text-white px-4 py-2 rounded-lg shadow-md">Learn More</button>
-                            </div>
-                        </div> --}}
-                    </div>
                 </div>
             </div>
         </div>
