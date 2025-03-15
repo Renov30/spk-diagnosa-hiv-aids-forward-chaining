@@ -90,37 +90,37 @@
                     <h1 class="font-bold text-2xl text-white mb-10 leading-relaxed lg:text-3xl md:text-2xl lg:mb-5">Dapatkan Diagnosa Dengan Cepat</h1>
                     <p class="text-sm text-white lg:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat numquam tempore eaque enim odit odio?</p>
                 </div>
-                <div class="flex space-x-5">
-                    <div class="bg-white p-5 rounded-lg flex items-center justify-between mb-7 max-w-[250px]">
+                <div class="md:flex md:space-x-5">
+                    <div class="bg-white p-5 rounded-lg flex md:flex-wrap items-center md:justify-between mb-7">
                         <div>
-                            <i data-feather="info" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4"></i>
+                            <i data-feather="info" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4 md:mb-4"></i>
                         </div>
                         <div>
                             <h4 class="font-bold text-base text-dark">Masukkan Biodata</h4>
                             <p class="text-sm text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores facere voluptates.</p>
                         </div>
                     </div>
-                    <div class="bg-white p-5 rounded-lg flex items-center mb-7 justify-center">
+                    <div class="bg-white p-5 rounded-lg flex md:flex-wrap items-center md:justify-between mb-7">
                         <div>
-                            <i data-feather="smile" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4"></i>
+                            <i data-feather="smile" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4 md:mb-4"></i>
                         </div>
                         <div>
                             <h4 class="font-bold text-base text-dark">Pilih Gejala</h4>
                             <p class="text-sm text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, modi.</p>
                         </div>
                     </div>
-                    <div class="bg-white p-5 rounded-lg flex items-center mb-7">
+                    <div class="bg-white p-5 rounded-lg flex md:flex-wrap items-center md:justify-between mb-7">
                         <div>
-                            <i data-feather="plus" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4"></i>
+                            <i data-feather="plus" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4 md:mb-4"></i>
                         </div>
                         <div>
                             <h4 class="font-bold text-base text-dark">Dapatkan Diagnosa</h4>
                             <p class="text-sm text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae reprehenderit eligendi eius omnis!</p>
                         </div>
                     </div>
-                    <div class="bg-white p-5 rounded-lg flex items-center mb-7">
+                    <div class="bg-white p-5 rounded-lg flex md:flex-wrap items-center md:justify-between mb-7">
                         <div>
-                            <i data-feather="paperclip" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4"></i>
+                            <i data-feather="paperclip" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4 md:mb-4"></i>
                         </div>
                         <div>
                             <h4 class="font-bold text-base text-dark">Lihat Riwayat</h4>
