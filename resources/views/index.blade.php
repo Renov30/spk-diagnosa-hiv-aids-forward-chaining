@@ -90,41 +90,41 @@
                     <h1 class="font-bold text-2xl text-white mb-10 leading-relaxed lg:text-3xl md:text-2xl lg:mb-5">Dapatkan Diagnosa Dengan Cepat</h1>
                     <p class="text-sm text-white lg:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat numquam tempore eaque enim odit odio?</p>
                 </div>
-                <div class="md:flex md:space-x-5">
+                <div class="grid md:grid-cols-4 md:gap-5">
                     <div class="bg-white p-5 rounded-lg flex md:flex-wrap items-center md:justify-between mb-7">
-                        <div>
-                            <i data-feather="info" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4 md:mb-4"></i>
+                        <div class="items-center bg-primary rounded-full p-2 mr-4 md:mb-6">
+                            <i data-feather="info" class="text-white w-full md:w-12 md:h-12 w-10 h-10 p-1"></i>
                         </div>
                         <div>
-                            <h4 class="font-bold text-base text-dark">Masukkan Biodata</h4>
-                            <p class="text-sm text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores facere voluptates.</p>
+                            <h4 class="font-bold text-base text-dark md:mb-4 md:text-lg">Masukkan Biodata</h4>
+                            <p class="text-sm text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium at voluptates ad autem expedita quos.</p>   
                         </div>
                     </div>
                     <div class="bg-white p-5 rounded-lg flex md:flex-wrap items-center md:justify-between mb-7">
-                        <div>
-                            <i data-feather="smile" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4 md:mb-4"></i>
+                        <div class="items-center bg-primary rounded-full p-2 mr-4 md:mb-6">
+                            <i data-feather="smile" class="text-white w-full md:w-12 md:h-12 w-10 h-10 p-1"></i>
                         </div>
                         <div>
-                            <h4 class="font-bold text-base text-dark">Pilih Gejala</h4>
-                            <p class="text-sm text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, modi.</p>
-                        </div>
-                    </div>
-                    <div class="bg-white p-5 rounded-lg flex md:flex-wrap items-center md:justify-between mb-7">
-                        <div>
-                            <i data-feather="plus" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4 md:mb-4"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-base text-dark">Dapatkan Diagnosa</h4>
-                            <p class="text-sm text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae reprehenderit eligendi eius omnis!</p>
+                            <h4 class="font-bold text-base text-dark md:mb-4 md:text-lg">Pilih Gejala</h4>
+                            <p class="text-sm text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum repellat autem hic totam non id.</p>
                         </div>
                     </div>
                     <div class="bg-white p-5 rounded-lg flex md:flex-wrap items-center md:justify-between mb-7">
-                        <div>
-                            <i data-feather="paperclip" class="w-12 h-12 bg-primary text-white rounded-full p-2 mr-4 md:mb-4"></i>
+                        <div class="items-center bg-primary rounded-full p-2 mr-4 md:mb-6">
+                            <i data-feather="plus" class="text-white w-full md:w-12 md:h-12 w-10 h-10 p-1"></i>
                         </div>
                         <div>
-                            <h4 class="font-bold text-base text-dark">Lihat Riwayat</h4>
-                            <p class="text-sm text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorum vel quaerat, deleniti ad sit earum.</p>
+                            <h4 class="font-bold text-base text-dark md:mb-4 md:text-lg">Dapatkan Diagnosa</h4>
+                            <p class="text-sm text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nostrum saepe suscipit officiis quam tempora.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-5 rounded-lg flex md:flex-wrap items-center md:justify-between mb-7">
+                        <div class="items-center bg-primary rounded-full p-2 mr-4 md:mb-6">
+                            <i data-feather="book" class="text-white w-full md:w-12 md:h-12 w-10 h-10 p-1"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base text-dark md:mb-4 md:text-lg">Lihat Riwayat</h4>
+                            <p class="text-sm text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo perspiciatis optio eaque, deserunt tempora minus!</p>
                         </div>
                     </div>
                 </div>
@@ -136,16 +136,63 @@
     <section class="pt-36 pb-20">
         <div class="container">
             <div class="w-full px-4">
-                <div class="mx-auto text-center mb-10">
-                    <h1 class="font-bold text-2xl text-dark">Fitur dan <span class="text-primary">Layanan</span></h1> 
+                <div class="grid grid-cols-2 space-x-5">
+                    <div>
+                        <img src="{{asset('img/elderly-female-smiling-with-doctor-visiting-senior-patient-woman-hospital-ward.jpg')}}" alt="">
+                    </div>
+                    <div>
+                        <div class="mb-5">
+                            <h1 class="font-bold lg:text-3xl md:text-3xl lg:mb-5 text-dark leading-relaxed">Berdasarkan data <br> diagnosa <span class="text-primary">Terpercaya</span></h1> 
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta animi omnis aliquam dolore cumque iure aut modi reiciendis, autem deserunt!</p>
+                        </div>
+                        <div class="bg-primary px-8 py-5">
+                            <div class="space-x-4 mb-4">
+                                <h1 class="font-bold lg:text-xl md:text-xl text-white leading-relaxed flex-1">Forward Chaining Method</h1>
+                                <p class="text-white leading-relaxed flex-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laudantium, labore nemo quos laborum voluptates harum rem quasi amet quas!</p>
+                            </div>
+                            <button class="bg-white py-3 px-5">Lebih Lanjut</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     {{-- data end --}}
     {{-- tech stack start --}}
+    <section class="pt-20 pb-20  bg-slate-300">
+        <div class="container">
+            <div class="w-full px-4 mx-auto text-center">
+                {{-- <h1 class="font-bold text-2xl text-dark mb-10 leading-relaxed lg:text-3xl md:text-2xl lg:mb-15 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-500">Tech Stack Yang Digunakan</h1> --}}
+                <div class="flex flex-wrap items-center justify-center">  
+                    <img src="{{asset('img/icon/Logo.min.svg.png')}}" alt="" class="w-[200px] py-4 mx-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6">
+                    <img src="{{asset('img/icon/Logo-2.png')}}" alt="" class="w-[200px] py-4 mx-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6">
+                    <img src="{{asset('img/icon/Tailwind_CSS_logo.svg.png')}}" alt="" class="w-[200px] py-4 mx-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6">
+                    <img src="{{asset('img/icon/MySQL_textlogo.svg.png')}}" alt="" class="w-[200px] py-4 mx-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6">
+                </div>
+            </div>
+        </div>
+    </section>
     {{-- tech stack end --}}
     {{-- footer start --}}
+    <footer>
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="flex justify-between">
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Tiktok</li>
+                    </ul>
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>About SPK</li>
+                        <li>Diagnosa</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     {{-- footer end --}}
     {{-- script --}}
     <script>
