@@ -52,7 +52,7 @@
                 <div class="px-4 w-full self-end lg:w-1/2">
                     <div class="relative mt-10 lg:mt-0 lg:right-0">
                         <img 
-                        src="{{asset('img/bohemian-man-with-his-arms-crossed-removebg-preview.png')}}" 
+                        src="{{asset('img/9109565-2.png')}}" 
                         alt="hero image" 
                         class="relative z-10 max-w-full mx-auto">
                         <span 
@@ -179,16 +179,18 @@
             <div class="w-full px-4">
                 <div class="flex justify-between">
                     <ul>
-                        <li>Instagram</li>
-                        <li>Facebook</li>
-                        <li>Tiktok</li>
+                        <li>Alamat : Jl. Lepro Seri  Mopah Lama, Kelurahan Rimba Jaya, Merauke, Papua Selatan</li>
+                        <li>No. Hp : 0899 9098 0988</li>
+                        <li>Email : dinaskesehatanmerauke@gmail.com</li>
                     </ul>
                     <ul>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>About SPK</li>
-                        <li>Diagnosa</li>
+                        <li><a href=""><i data-feather="facebook"></i>Facebook</a></li>
+                        <li><a href=""><i data-feather="instagram"></i>Instagram</a></li>
+                        <li><a href=""><i data-feather="youtube"></i>Youtube</a></li>
                     </ul>
+                </div>
+                <div>
+                    Copyright by Novgeny R. Ermiawan 2025. All rights reserved
                 </div>
             </div>
         </div>
