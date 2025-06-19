@@ -1,0 +1,28 @@
+when install on another laptop do:
+
+1. clear:
+   php artisan config:clear
+   php artisan cache:clear
+   php artisan route:clear
+   php artisan view:clear
+
+2. app debug:
+   APP_DEBUG=true
+
+3. set up composer:
+   composer install
+   composer dump-autoload
+   php artisan optimize:clear
+
+4. nyalain zip di php:
+   ;extension=zip
+
+5. storage:
+   php artisan storage:unlink
+   php artisan storage:link
+
+6. clear lagi:
+   php artisan config:clear
+   php artisan cache:clear
+   php artisan route:clear
+   php artisan view:clear
