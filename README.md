@@ -1,18 +1,10 @@
-# sig-pemetaan-lahan-jagung-merauke
+# spk-diagnosa-penyakit-hiv
 
-**Sistem Informasi Geografis (SIG) | Geographic Information System (GIS)**
+**Sistem Pakar/Sistem Pendukung Keputusan Diagnosa Penyakit HIV**
 
---Peta Jagung--
+--SPKHIV--
 
-Sistem informasi untuk mengelola dan menampilkan data lahan jagung di Kabupaten Merauke. Data yang ditampilkan meliputi: <br>
-
--   Jumlah lahan <br>
--   Luas lahan <br>
--   Hasil produksi <br>
--   Lokasi (longitude, latitude) <br>
--   Nama petani <br>
--   Alamat <br>
--   Foto/Galeri lahan jagung <br>
+Sistem pakar/sistem pendukung keputusan diagnosa penyakit HIV : <br>
 
 --Build Using-- <br>
-Laravel, Filament, MySQL, Laragon, PHP, Javascript, HTML, CSS, Tailwind CSS
+Laravel, Filament, MySQL, Laragon, PHP, Javascript, HTML, Tailwind CSS
